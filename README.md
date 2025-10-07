@@ -13,15 +13,13 @@ This project is a data visualization dashboard designed to provide insights into
 
 ## Technologies Used
 
-- **Python**: The primary programming language used.
-- **Geopandas**: For handling geospatial data and geometric operations.
-- **Holoviews**: For creating interactive visualizations.
-- **Geoviews**: To extend Holoviews for geographic data.
-- **Datashader**: For rendering large datasets efficiently.
-- **Panel**: For creating interactive dashboards and web apps in Python.
-- **Bokeh**: As the underlying plotting library.
+- **python**: The primary programming language used.
+- **geopandas**: For handling geospatial data and geometric operations.
+- **sklearn, xgboost statsmodels**: Machine learning models for predicting ridership.
+- **matplotlib and seaborn**: Visualizing zoning around stations. 
+- **census**: Loading in census data from the API.
 
-## Usage
+## Future Features
 - **Select a Station:** Use the dropdown menu to select a SEPTA Heavy Rail station.
 - **Explore the Data:** The dashboard will update automatically to display the map, zoning distribution, and summary statistics for the selected station.
 ## Data Sources
